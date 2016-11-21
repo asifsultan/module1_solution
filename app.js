@@ -25,6 +25,7 @@
 ////////Case for handling space is not included///////
           $scope.displayMessage = function(){
             if(total > 3){
+                
                 return "Too much!";
             }
             else if(total > 0 && total <= 3){
